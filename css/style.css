@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #191825;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #FCFBF4;
+}
+
+.bar li {
+    display: inline-flex;
+    padding: 10px;
+}
+
+.bar li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.bar li a:hover {
+    color: #1134A6;
+    text-decoration: underline;
+}
+
+button {
+    color: whitesmoke;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1134A6;
+    height: 30px;
+}
+
+button:hover {
+    background-color: black;
+    color: #ffffff;
+
+}
